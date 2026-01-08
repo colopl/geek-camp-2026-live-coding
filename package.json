@@ -1,0 +1,16 @@
+{
+  "name": "geek-camp-2026-live-coding",
+  "scripts": {
+    "lint": "npm run lint:biome && npm run lint:secretlint",
+    "lint:biome": "biome check --write --unsafe .",
+    "lint:secretlint": "secretlint '**/*'",
+    "format": "biome format --write .",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@secretlint/secretlint-rule-preset-recommend": "^11.2.5",
+    "husky": "^9.1.7",
+    "secretlint": "^11.2.5"
+  }
+}

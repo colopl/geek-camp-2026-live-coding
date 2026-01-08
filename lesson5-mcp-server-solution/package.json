@@ -1,0 +1,17 @@
+{
+  "name": "lesson5-mcp-server-solution",
+  "version": "1.0.0",
+  "description": "Lesson 5: MCPサーバーを作る（回答）",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

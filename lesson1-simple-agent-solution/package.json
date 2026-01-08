@@ -1,0 +1,18 @@
+{
+  "name": "lesson1-simple-agent",
+  "version": "1.0.0",
+  "description": "Lesson 1: ツールなしの最小限エージェント",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx --env-file=.env src/index.ts",
+    "dev": "npx tsx --env-file=.env watch src/index.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "lesson-3.1-mastra-playground",
+  "version": "1.0.0",
+  "description": "Lesson 3.1: Mastra Playground（ブラウザでGUI確認）",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx --env-file=.env src/cli.ts",
+    "dev": "npx mastra dev --root \"$PWD\" --dir src/mastra"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^3.0.10",
+    "@mastra/core": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "mastra": "^1.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
