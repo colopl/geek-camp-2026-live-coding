@@ -8,9 +8,9 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@secretlint/secretlint-rule-preset-recommend": "^11.2.5",
+    "@biomejs/biome": "^2.4.6",
+    "@secretlint/secretlint-rule-preset-recommend": "^11.3.1",
     "husky": "^9.1.7",
-    "secretlint": "^11.2.5"
+    "secretlint": "^11.3.1"
   }
 }
