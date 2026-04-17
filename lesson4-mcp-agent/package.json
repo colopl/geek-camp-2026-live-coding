@@ -9,11 +9,11 @@
   "dependencies": {
     "@mastra/core": "^1.25.0",
     "@mastra/mcp": "^1.5.0",
-    "@ai-sdk/google": "^3.0.63"
+    "@ai-sdk/google": "^3.0.64"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
     "tsx": "^4.19.2",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   }
 }
