@@ -7,9 +7,9 @@
     "start": "npx tsx --env-file=.env src/index.ts"
   },
   "dependencies": {
-    "@mastra/core": "^1.36.0",
-    "@mastra/mcp": "^1.8.0",
-    "@ai-sdk/google": "^3.0.79"
+    "@mastra/core": "^1.37.1",
+    "@mastra/mcp": "^1.8.1",
+    "@ai-sdk/google": "^3.0.80"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",
