@@ -11,12 +11,12 @@
     "node": ">=22.13.0"
   },
   "dependencies": {
-    "@ai-sdk/google": "^4.0.17",
-    "@mastra/core": "^1.51.0"
+    "@ai-sdk/google": "^4.0.23",
+    "@mastra/core": "^1.52.1"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
-    "mastra": "^1.19.0",
+    "mastra": "^1.20.1",
     "tsx": "^4.23.1",
     "typescript": "^7.0.2"
   }
