@@ -7,13 +7,13 @@
     "start": "npx tsx --env-file=.env src/index.ts"
   },
   "dependencies": {
-    "@mastra/core": "^1.66.0",
-    "@mastra/mcp": "^1.17.3",
-    "@ai-sdk/google": "^4.0.70"
+    "@mastra/core": "^1.67.0",
+    "@mastra/mcp": "^1.18.0",
+    "@ai-sdk/google": "^4.0.76"
   },
   "devDependencies": {
-    "@types/node": "^26.5.1",
-    "tsx": "^4.23.13",
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   }
 }
