@@ -9,7 +9,7 @@
   "dependencies": {
     "@mastra/core": "^1.78.0",
     "@mastra/mcp": "^2.6.0",
-    "@ai-sdk/google": "^4.0.101"
+    "@ai-sdk/google": "^4.0.106"
   },
   "devDependencies": {
     "@types/node": "^26.6.5",
